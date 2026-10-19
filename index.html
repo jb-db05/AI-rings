@@ -499,4 +499,12 @@ document.addEventListener("keydown",e=>{if(e.key==="Escape")resetAll()});
 render();
 </script>
 
+<script>
+/* When embedded in an iframe (e.g. the HubSpot blog), report the page height so the host can size the iframe */
+(function(){if(window.parent===window)return;let last=0;
+function send(){const h=Math.ceil(document.body.offsetHeight);if(h!==last){last=h;parent.postMessage({aiRingsHeight:h},"*")}}
+addEventListener("load",send);addEventListener("resize",send);
+if(window.ResizeObserver)new ResizeObserver(send).observe(document.body);send()})();
+</script>
+
 </body></html>
