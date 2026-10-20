@@ -21,7 +21,7 @@ git push
 
 - **Title and intro text**: the `<header>` block near the top.
 - **Styles and colours**: the `<style>` block in `<head>`.
-- **Nodes, deals, sources**: the data objects in the `<script>` at the bottom (`N` = nodes, deals list, `PR` = categories).
+- **Nodes, deals, funding stress**: the data objects in the `<script>` at the bottom (`N` = nodes, `D` = deals, `PR` = funding stress). Deals still carry a `src` field, but sources are no longer shown on the page.
 - **Logo**: the `<img src="data:image/png;base64,...">` in the header. To swap it, add `logo.png` to the repo and change the tag to `src="logo.png"`.
 
 ## Check before you push
