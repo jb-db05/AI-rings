@@ -2,7 +2,7 @@
 
 Interactive map of AI money flows: who funds whom, and where to watch.
 
-Live site: `https://syz-research.github.io/AI-rings/`
+Live site: `https://jb-db05.github.io/AI-rings/`
 
 ## Files
 

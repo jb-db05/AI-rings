@@ -9,7 +9,7 @@
 ## Edit on your computer
 
 ```bash
-git clone https://github.com/Syz-Research/AI-rings.git
+git clone https://github.com/jb-db05/AI-rings.git
 cd AI-rings
 # open index.html in a browser to preview, edit it in any text editor
 git add index.html
